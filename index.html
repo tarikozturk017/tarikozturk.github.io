@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Tarik Ozturk - Personal Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- Fontawesome CDN Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+  <body>
+    <!-- Navgaition bar -->
+    <nav>
+      <div class="navbar">
+        <div class="logo"><a href="#">TarikOzturk</a></div>
+        <ul class="menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="media-icons">
+          <a
+            href="https://github.com/tarikozturk017?tab=overview&from=2022-04-01&to=2022-04-10"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/tar%C4%B1k-%C3%B6zt%C3%BCrk-28b050159/"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Home Section Start -->
+    <section class="home" id="home">
+      <div class="home-content">
+        <div class="image">
+          <img src="./Images/me.png" alt="me" />
+        </div>
+        <div class="text">
+          <div class="text-one">I'm</div>
+          <div class="text-two">Tarik Ozturk</div>
+          <div class="text-three">Software Developer</div>
+        </div>
+        <div class="button">
+          <a href="./src/Tarik Ozturk - 1.pdf" download
+            ><button>Download CV</button></a
+          >
+          <a href="#contact"><button>Contact Me</button></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section Start -->
+    <section class="about" id="about">
+      <div class="content">
+        <div class="title"><span>About Me</span></div>
+        <div class="about-details">
+          <div class="left">
+            <div class="topic">About Me and Academic Honesty</div>
+            <p>
+              Hello, I am Tarik, from Turkey. I have been interested in
+              programming for a while, and I decided to choose a development as
+              a career. I am currently in 2nd semester of my college program, at
+              Seneca College, I had taken some courses before the program
+              started.
+            </p>
+            <br />
+            <p>
+              I have some basic knowledge about C, C++, JavaScript, Python,
+              HTML. Although I only used HTML to create this website, I want to
+              create more complex websites in the future.
+            </p>
+            <br />
+            <p>
+              I declare that my assessment is wholly my own work in accordance
+              with Seneca Academic Policy. No part of this assessment has been
+              copied manually or electronically from any other source (including
+              web sites) except for the information supplied by the WEB222
+              instructors and / or made available in this assessment for my use.
+              I also declare that no part of this assignment has been
+              distributed to other students.
+            </p>
+            <div class="information">
+              <div class="sub-topics">
+                <p>Date:</p>
+              </div>
+              <div><p>April 10, 2022</p></div>
+            </div>
+          </div>
+          <div class="right">
+            <div class="topic">Basic Information</div>
+            <div class="information">
+              <div class="sub-topics">
+                <p>Age:</p>
+                <p>Email:</p>
+                <p>Language:</p>
+                <p>Class Section:</p>
+                <p>Student ID:</p>
+                <p>Instructor:</p>
+              </div>
+              <div>
+                <p>26</p>
+                <p>tozturk1@myseneca.ca</p>
+                <p>English, Turkish</p>
+                <p>NBB</p>
+                <p>155237209</p>
+                <p>Noman Atique</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section Start -->
+    <section class="education" id="education">
+      <div class="content">
+        <div class="title"><span>Education</span></div>
+        <div class="boxes">
+          <div class="box1">
+            <p>2021-2024(expected)</p>
+            <div class="topic">Computer Programming & Analysis</div>
+          </div>
+          <div class="box2">
+            <div class="sub-topics">Advanced Diploma Program</div>
+            <div class="topic">Seneca College</div>
+            <p>Under the supervision of <span>Noman Atique</span></p>
+            <p>Awarded with Dean's honour list - Fall 2021</p>
+          </div>
+          <div class="box1">
+            <p>2013-2017</p>
+            <div class="topic">Physiotherapy and Rehabilitation</div>
+          </div>
+          <div class="box2">
+            <div class="sub-topics">Bachelor's Degree</div>
+            <div class="topic">Istanbul Medipol University</div>
+            <p>Under the supervision of <span>Canan Algun</span></p>
+            <p>Awarded with European Union Erasmus Scholorship</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Me section Start -->
+    <section class="contact" id="contact">
+      <div class="content">
+        <div class="title"><span>Contact Me</span></div>
+        <form
+          action="https://httpbin.org/post"
+          method="post"
+          target="_blank"
+          class="text"
+        >
+          <div class="information">
+            <label for="name" class="contact-label">Name</label>
+            <input
+              type="text"
+              class="contact-input"
+              name="name"
+              required
+              autocomplete="off"
+              placeholder="Michael Jordan"
+            />
+          </div>
+          <div class="information">
+            <label for="email" class="contact-label">Enter your email:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="mj@gmail.com"
+              required
+            />
+          </div>
+
+          <div class="information">
+            <label for="adr"> Address</label>
+            <input
+              type="text"
+              id="adr"
+              name="address"
+              placeholder="123 E. 7th Street"
+            />
+          </div>
+
+          <div class="information">
+            <label for="city">City</label>
+            <input
+              list="cities"
+              id="city"
+              name="cities"
+              required
+              placeholder="Toronto"
+            />
+            <datalist id="cities">
+              <option value="Quebec City"></option>
+              <option value="Toronto"></option>
+              <option value="Vancouver"></option>
+              <option value="Ottawa"></option>
+              <option value="Winnipeg"></option>
+              <option value="Montreal"></option>
+              <option value="Halifax"></option>
+              <option value="Calgary"></option>
+              <option value="Windsdor"></option>
+            </datalist>
+          </div>
+          <div class="information">
+            <label for="postal-code">Postal Code:</label>
+            <input
+              type="text"
+              id="postal-code"
+              name="postal-code"
+              pattern="^(?!.*[DFIOQUdfioqu])[A-VXYa-vxy][0-9][A-Za-z] ?[0-9][A-Za-z][0-9]$"
+              title="Canadian Postal Code"
+              placeholder="N1F 4G7"
+              required
+            /><br /><br />
+          </div>
+
+          <div class="information-radio">
+            <p>What this is about:</p>
+            <div class="radio-btn">
+              <label for="question">Question</label>
+              <input
+                type="radio"
+                onclick="javascript:hideRate();"
+                name="radio-btn"
+                id="question"
+                class="radio-btn"
+              />
+            </div>
+            <div class="radio-btn">
+              <label for="comment">Comment</label>
+              <input
+                type="radio"
+                onclick="javascript:hideRate();"
+                name="radio-btn"
+                id="comment"
+                class="radio-btn"
+              />
+            </div>
+            <div class="radio-btn">
+              <label for="hiring">Hiring</label>
+              <input
+                type="radio"
+                onclick="javascript:revealRate();"
+                name="radio-btn"
+                id="hiring"
+                class="radio-btn"
+              />
+            </div>
+            <div class="information" id="hrate" style="display: none">
+              <label for="hrate" class="contact-label">Hourly Rate: $</label>
+              <input
+                type="number"
+                name="hrate"
+                id="hrate"
+                min="10"
+                max="100"
+                placeholder="Rate/Hr."
+              />
+            </div>
+          </div>
+
+          <div class="information">
+            <label for="" class="contact-label">Message</label>
+            <textarea
+              name="message"
+              cols="75"
+              rows="5"
+              placeholder="Type here..."
+              required
+            ></textarea>
+          </div>
+          <div class="buttons">
+            <div class="button">
+              <input type="reset" />
+            </div>
+            <div class="button">
+              <input type="submit" value="Submit" />
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer Section Start -->
+    <footer>
+      <div class="text">
+        <span>Created By <a href="#">TarikOzturk</a> &#169; | 2022</span>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
